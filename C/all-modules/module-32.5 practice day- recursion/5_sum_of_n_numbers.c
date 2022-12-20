@@ -7,7 +7,6 @@ int solve(int a)
     int s = solve(a-1);
 
     return a+s;
-
 }
 
 int main()
